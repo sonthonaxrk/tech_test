@@ -35,6 +35,14 @@ def test_help(command):
 
 
 def test_takes_stdin():
+    """
+    There are some test cases in the PDF they send you.
+    This is lifted from that.
+    
+    However I added some that it misses there. If your
+    CLI input matches this you'll probably get the Lyst
+    job.
+    """
     input_str = (
         b'30 1 /bin/run_me_daily\n'
         b'45 * /bin/run_me_hourly\n'
